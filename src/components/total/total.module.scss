@@ -1,0 +1,27 @@
+.total {
+    margin-top: 50px;
+}
+
+.flexContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 27px;
+    width: 100%;
+
+    div {
+        width: 73%;
+        text-align: center;
+        line-height: 11px;
+        margin-right: 50px;
+
+        .sum {
+            font-size: 31px;
+        }
+    }
+}
+
+.mounthly,
+.saving {
+    background-color: #f2f2f2;
+    color: #373737;
+}

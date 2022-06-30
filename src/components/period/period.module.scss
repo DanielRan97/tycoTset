@@ -1,0 +1,23 @@
+.peroidsButton {
+    margin: 15px;
+    border: none;
+    height: 58px;
+    width: 120px;
+    border-radius: 29px;
+    background-color: #D8D8D8;
+    cursor: pointer;
+}
+
+.peroidsButton:hover {
+    background-color: #ffcb00;
+}
+
+.peroidselectedButton {
+    margin: 15px;
+    border: black 1px solid;
+    height: 58px;
+    width: 120px;
+    border-radius: 29px;
+    cursor: pointer;
+    background-color: #ffcb00;
+}

@@ -1,0 +1,32 @@
+.nav {
+    position: relative;
+
+    hr {
+        box-sizing: border-box;
+        height: 1px;
+        width: 100%px;
+        border: 1px solid #E6E6E6;
+        position: relative;
+        margin-top: 70px;
+    }
+
+    img {
+        position: absolute;
+        right: 1px;
+        bottom: 4px;
+    }
+
+    .phoneNumber {
+        position: absolute;
+        left: 30px;
+        bottom: 4px;
+        height: 22px;
+        width: 134px;
+        color: #000000;
+        font-family: Alef;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 22px;
+    }
+
+}

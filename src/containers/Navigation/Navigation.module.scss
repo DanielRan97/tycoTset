@@ -1,0 +1,41 @@
+.Navigation {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-image: url("../../assets/navBG.png");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.nav {
+    width: 112px;
+    text-align: right;
+    color: white;
+    position: absolute;
+    right: 95px;
+    top: 110px;
+
+    p {
+        margin-top: 50px;
+    }
+
+    span {
+        height: 27px;
+        width: 9px;
+        color: #373737;
+        font-family: Alef;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 0;
+        line-height: 27px;
+        text-align: center;
+    }
+
+    .selected {
+        border: 1px solid white;
+        width: 12px;
+        background-color: white;
+    }
+}
